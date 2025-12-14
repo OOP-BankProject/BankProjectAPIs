@@ -16,7 +16,7 @@ server.port=8080
 
 
 
-#REGISTER ENDPOINTS
+# REGISTER ENDPOINTS
 # post: /api/register/step1
 #Request
 {
@@ -24,7 +24,7 @@ server.port=8080
   "phoneNumber": "+994501234567"
 }
 
-#Response
+# Response
 {
   "success": true,
   "message": "OTP kodu telefon nömrənizə göndərildi",
@@ -38,22 +38,22 @@ server.port=8080
 
 
 
-#POST /api/register/resend-otp
-#Request
+# POST /api/register/resend-otp
+# Request
 {
   "sessionToken": "eyJhbGciOiJIUzI1NiJ9..."
 }
 
 
 
-#post: /api/register/verify-otp
-#Request
+# post: /api/register/verify-otp
+# Request
 {
   "sessionToken": "eyJhbGciOiJIUzI1NiJ9...",
   "otpCode": "123456"
 }
 
-#Response
+# Response
 {
   "success": true,
   "message": "OTP kodu təsdiqləndi",
@@ -69,7 +69,7 @@ server.port=8080
 
 
 
-#post: /api/register/step2
+# post: /api/register/step2
 #Request
 {
   "verificationToken": "eyJhbGciOiJIUzI1NiJ9...",
@@ -81,7 +81,7 @@ server.port=8080
   "confirmPassword": "SecurePass123"
 }
 
-#Response
+# Response
 {
   "success": true,
   "message": "Qeydiyyat uğurla tamamlandı",
@@ -98,15 +98,15 @@ server.port=8080
 
 
 
-#LOGIN ENDPOINTS
-#post: /api/login
-#Request
+# LOGIN ENDPOINTS
+# post: /api/login
+# Request
 {
   "fin": "ABC1234",
   "password": "SecurePass123"
 }
 
-#Response
+# Response
 {
   "success": true,
   "message": "Uğurla daxil oldunuz",
@@ -124,13 +124,13 @@ server.port=8080
 }
 
 
-#POST /api/refresh
-#Request
+# POST /api/refresh
+# Request
 {
   "refreshToken": "eyJhbGciOiJIUzI1NiJ9..."
 }
 
-#Response
+# Response
 {
   "success": true,
   "message": "Token yeniləndi",
@@ -144,16 +144,16 @@ server.port=8080
 
 
 
-#PASSWORD RESET ENDPOINTS
-#POST /api/password/forgot/step1
-#Request
+# PASSWORD RESET ENDPOINTS
+# POST /api/password/forgot/step1
+# Request
 {
   "fin": "ABC1234",
   "phoneNumber": "+994501234567"
 }
 
 
-#Response
+# Response
 {
   "success": true,
   "message": "OTP kodu göndərildi",
@@ -166,15 +166,15 @@ server.port=8080
 }
 
 
-#POST /api/password/forgot/verify-otp
-#Request
+# POST /api/password/forgot/verify-otp
+# Request
 {
   "resetToken": "eyJhbGciOiJIUzI1NiJ9...",
   "otpCode": "123456"
 }
 
 
-#Response
+# Response
 {
   "success": true,
   "message": "OTP kodu təsdiqləndi",
@@ -189,7 +189,7 @@ server.port=8080
 
 
 
-#POST /api/password/reset
+# POST /api/password/reset
 #Request
 {
   "passwordResetToken": "eyJhbGciOiJIUzI1NiJ9...",
@@ -197,7 +197,7 @@ server.port=8080
   "confirmPassword": "NewSecurePass123"
 }
 
-#Response
+# Response
 {
   "success": true,
   "message": "Parol uğurla yeniləndi",
@@ -211,8 +211,8 @@ server.port=8080
 
 
 
-#POST /api/password/change
-#Request
+# POST /api/password/change
+# Request
 {
   "fin": "ABC1234",
   "oldPassword": "OldPass123",
@@ -220,7 +220,7 @@ server.port=8080
   "confirmPassword": "NewSecurePass123"
 }
 
-#Response
+# Response
 {
   "success": true,
   "message": "Parol dəyişdirildi",
