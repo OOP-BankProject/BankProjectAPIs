@@ -18,7 +18,7 @@ server.port=8080
 
 # REGISTER ENDPOINTS
 # post: /api/register/step1
-#Request
+# Request
 {
   "fin": "ABC1234",
   "phoneNumber": "+994501234567"
@@ -70,7 +70,7 @@ server.port=8080
 
 
 # post: /api/register/step2
-#Request
+# Request
 {
   "verificationToken": "eyJhbGciOiJIUzI1NiJ9...",
   "firstName": "John",
@@ -190,7 +190,7 @@ server.port=8080
 
 
 # POST /api/password/reset
-#Request
+# Request
 {
   "passwordResetToken": "eyJhbGciOiJIUzI1NiJ9...",
   "newPassword": "NewSecurePass123",
