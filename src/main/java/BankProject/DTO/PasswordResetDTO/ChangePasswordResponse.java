@@ -1,4 +1,4 @@
-package BankProject.DTO.PasswordReset;
+package BankProject.DTO.PasswordResetDTO;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,7 +7,6 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class ResetPasswordResponse {
+public class ChangePasswordResponse {
     private String message;
-    private String fin;
 }

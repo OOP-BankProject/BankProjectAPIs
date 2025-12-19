@@ -1,6 +1,6 @@
-package BankProject.Services;
+package BankProject.Service;
 
-import BankProject.DTO.PasswordReset.*;
+import BankProject.DTO.PasswordResetDTO.*;
 import BankProject.Entity.PasswordResetTemp;
 import BankProject.Entity.User;
 import BankProject.Exceptions.*;

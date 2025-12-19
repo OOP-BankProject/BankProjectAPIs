@@ -5,7 +5,7 @@ import BankProject.DTO.LoginDTO.LoginRequest;
 import BankProject.DTO.LoginDTO.LoginResponse;
 import BankProject.DTO.LoginDTO.RefreshTokenRequest;
 import BankProject.DTO.LoginDTO.RefreshTokenResponse;
-import BankProject.Services.LoginService;
+import BankProject.Service.LoginService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;

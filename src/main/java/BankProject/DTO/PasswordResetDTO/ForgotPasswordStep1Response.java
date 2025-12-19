@@ -1,4 +1,4 @@
-package BankProject.DTO.PasswordReset;
+package BankProject.DTO.PasswordResetDTO;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

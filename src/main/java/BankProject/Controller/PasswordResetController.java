@@ -1,8 +1,8 @@
 package BankProject.Controller;
 
 import BankProject.DTO.ApiResponse;
-import BankProject.DTO.PasswordReset.*;
-import BankProject.Services.PasswordResetService;
+import BankProject.DTO.PasswordResetDTO.*;
+import BankProject.Service.PasswordResetService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;

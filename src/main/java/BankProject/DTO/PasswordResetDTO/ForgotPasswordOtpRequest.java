@@ -1,4 +1,4 @@
-package BankProject.DTO.PasswordReset;
+package BankProject.DTO.PasswordResetDTO;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;

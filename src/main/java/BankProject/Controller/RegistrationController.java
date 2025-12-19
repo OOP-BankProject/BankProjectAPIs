@@ -1,6 +1,5 @@
 package BankProject.Controller;
 
-import BankProject.DTO.*;
 import BankProject.DTO.ApiResponse;
 import BankProject.DTO.OtpVerificationRequest;
 import BankProject.DTO.OtpVerificationResponse;
@@ -9,7 +8,7 @@ import BankProject.DTO.RegistrationStep1Response;
 import BankProject.DTO.RegistrationStep2Request;
 import BankProject.DTO.RegistrationStep2Response;
 import BankProject.DTO.ResendOtpRequest;
-import BankProject.Services.RegistrationService;
+import BankProject.Service.RegistrationService;
 import io.swagger.v3.oas.annotations.Operation;
 
 import io.swagger.v3.oas.annotations.tags.Tag;

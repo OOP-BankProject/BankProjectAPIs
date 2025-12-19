@@ -1,6 +1,5 @@
-package BankProject.Services;
+package BankProject.Service;
 
-import BankProject.DTO.*;
 import BankProject.DTO.OtpVerificationRequest;
 import BankProject.DTO.OtpVerificationResponse;
 import BankProject.DTO.RegistrationStep1Request;
